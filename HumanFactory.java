@@ -1,7 +1,13 @@
 public class HumanFactory extends CreatorClassFactory {
-  public Character createrCharacter(String item) {
-    if (item.equals("human")) {
+
+  @Override
+  public Character createTrait() {
+    if (getRace().equals("human")) {
         return new Human();
+    } else if (getRace().equals("animal")) {
+      return new Animal();
+    } else if (getRace().equals("alien")) {
+      return new Alien();
     } else {
       return null;
     }

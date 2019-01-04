@@ -1,15 +1,15 @@
-public abstract class CreatorClassFactory {
+public abstract class CreatorClassFactory extends Character {
 
-    public Character createNewCharacter(String type) {
+    public Character createNewCharacter() {
       Character character;
-
-      character = createrCharacter(type);
-      character.create();
+      
+      createHero();
+      character = createTrait();
 
       return character;
     }
 
-    protected abstract Character createrCharacter(String type);
+    protected abstract Character createTrait();
 
 
 }

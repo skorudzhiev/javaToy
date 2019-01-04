@@ -1,7 +1,7 @@
-public class HumanFactory extends CreatorClassFactory {
+public class AbstractFactory extends CreatorClassFactory {
 
   @Override
-  public Character createTrait() {
+  public Character createCharacter() {
     if (getRace().equals("human")) {
         return new Human();
     } else if (getRace().equals("animal")) {

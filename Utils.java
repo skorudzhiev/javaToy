@@ -1,7 +1,8 @@
 import java.io.IOException;
 import java.util.Scanner;
+import java.util.Arrays;
 
-public class Utils {
+public class Utils extends Strings {
 
   public void printer(String text) {
     System.out.println(text);

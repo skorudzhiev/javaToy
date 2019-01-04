@@ -1,15 +1,13 @@
-public abstract class CreatorClassFactory extends Character {
+public abstract class CreatorClassFactory extends FactoryHelper {
 
     public Character createNewCharacter() {
       Character character;
-      
+
       createHero();
-      character = createTrait();
+      character = createCharacter();
 
       return character;
     }
 
-    protected abstract Character createTrait();
-
-
+    protected abstract Character createCharacter();
 }

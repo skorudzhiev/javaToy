@@ -1,7 +1,5 @@
 public class Human extends Character {
 
-  private String heroClass;
-
   public Human() {
       String heroName;
 
@@ -13,15 +11,5 @@ public class Human extends Character {
 
       setName(heroName);
       setRace(getRace());
-
-
-  }
-
-  public String getHeroClass() {
-    return heroClass;
-  }
-
-  public void setHeroClass(String heroClass) {
-    this.heroClass = heroClass;
   }
 }

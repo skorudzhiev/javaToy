@@ -2,7 +2,7 @@ public class MainController extends Character {
 
   CreatorClassFactory factory;
 
-  void initializeFactory() {
+  public void initializeFactory() {
     factory = new AbstractFactory();
   }
 

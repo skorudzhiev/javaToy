@@ -1,3 +1,3 @@
 public class Strings {
-  public String[] availableRaces = {"Human", "Animal", "Alien"};
+  public static final String[] availableRaces = {"Human", "Animal", "Alien"};
 }

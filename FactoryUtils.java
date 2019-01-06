@@ -14,8 +14,10 @@ public class FactoryUtils extends Character {
       } else {
         setRace("");
         clearScreen();
-        printer("You cannot create a hero different than these in the list");
+        printer("You cannot create a hero different than these in the list below");
         printer(Arrays.toString(availableRaces));
+        emptyLine();
+        printer("Write down correct Race for your hero!");
         setRace(typeHere());
       }
     }

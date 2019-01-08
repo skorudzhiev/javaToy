@@ -1,6 +1,8 @@
-public class Alien extends Character {
+package model;
 
-  public Alien() {
+public class Human extends Character {
+
+  public Human() {
       String heroName;
 
       if (getName() == null) {

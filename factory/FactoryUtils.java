@@ -1,4 +1,7 @@
+package factory;
+
 import java.util.Arrays;
+import model.Character;
 
 public class FactoryUtils extends Character {
 

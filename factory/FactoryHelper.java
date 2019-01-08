@@ -1,4 +1,7 @@
+package factory;
+
 import java.util.Arrays;
+import model.*;
 
 public class FactoryHelper extends FactoryUtils {
 

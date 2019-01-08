@@ -1,3 +1,9 @@
+package controller;
+
+import model.Character;
+import factory.CreatorClassFactory;
+import factory.*;
+
 public class MainController extends Character {
 
   CreatorClassFactory factory;

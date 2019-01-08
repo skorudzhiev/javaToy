@@ -1,3 +1,7 @@
+package factory;
+
+import model.Character;
+
 public abstract class CreatorClassFactory extends FactoryHelper {
 
     protected abstract Character createCharacter();

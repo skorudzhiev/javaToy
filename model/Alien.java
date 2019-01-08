@@ -1,6 +1,8 @@
-public class Animal extends Character {
+package model;
 
-  public Animal() {
+public class Alien extends Character {
+
+  public Alien() {
       String heroName;
 
       if (getName() == null) {

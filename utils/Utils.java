@@ -1,6 +1,8 @@
+package utils;
+
 import java.io.IOException;
 import java.util.Scanner;
-import java.util.Arrays;
+import res.Strings;
 
 public class Utils extends Strings {
 

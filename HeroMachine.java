@@ -1,3 +1,5 @@
+import controller.MainController;
+
 public class HeroMachine {
 
   public static void main(String[] args) {

@@ -1,3 +1,7 @@
+package model;
+
+import utils.Utils;
+
 public abstract class Character extends Utils {
 
   private String name;

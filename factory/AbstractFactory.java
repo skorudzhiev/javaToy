@@ -1,3 +1,8 @@
+package factory;
+
+import model.Character;
+import model.*;
+
 public class AbstractFactory extends CreatorClassFactory {
 
   @Override

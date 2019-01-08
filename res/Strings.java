@@ -1,3 +1,5 @@
+package res;
+
 public class Strings {
   public static final String[] availableRaces = {"Human", "Animal", "Alien"};
   public static final String[] humanSubClasses = {"Knight", "Hunter", "Mage"};

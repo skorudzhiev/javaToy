@@ -1,4 +1,4 @@
-# javacToy
+# javaToy
 
 To run the project use `command prompt`, `bash` or `terminal`
 

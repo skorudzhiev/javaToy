@@ -5,8 +5,6 @@ import model.*;
 
 public class FactoryHelper extends FactoryUtils {
 
-  private String[] subClassArray;
-
   // This is the main method controlling the Hero creation process
   public void createHero() {
     clearScreen();

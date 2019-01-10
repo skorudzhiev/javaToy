@@ -7,13 +7,6 @@ public class FactoryUtils extends Character {
 
   String[] tempArray = {"No Value"};
 
-  private Boolean humanRace, animalRace, alienRace = false;
-  // Boolean values for the subclasses of the available races
-  private Boolean knightClass, hunterClass, mageClass = false;
-  private Boolean mammalClass, birdClass, reptileClass = false;
-  private Boolean machineClass, anamorphicClass, spiritClass = false;
-
-  // These two methods validate entered race
   // These two methods validate entered race
   public void validateRace() {
     while (!isCorrectRace(getRace())) {
